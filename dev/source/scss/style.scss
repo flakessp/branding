@@ -1,0 +1,33 @@
+$header:              #000;
+$join-internet_color: #273f9f;
+$join-internet_bg:    #d5d5d5;
+$premium_color:       #fff;
+$premium_bg:          #c41231;
+
+header {
+  background: $header;
+}
+
+#footer a#disable-ad {
+  background: $premium_bg;
+  color: $premium_color;
+}
+
+#footer a#join-internet {
+  background: $join-internet_bg;
+  color: $join-internet_color;
+}
+
+/*
+    Все пользовательские стили должны располагаться в этом файле
+    Пользовательские стили, указанные в других файлах, будут проигнорированы
+
+    Указанные выше правила позволяют
+    изменять оформление шапки, футера и кнопки "Войти в интернет"
+    В рамках этих правил позволяется изменять исключительно цвет фона элементов
+
+    Все остальные стили должны явно определяться относительно элемента #content
+*/
+*{
+  box-sizing: border-box;
+}

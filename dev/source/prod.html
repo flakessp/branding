@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html manifest="app.manifest">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <script>
+        function onUpdateReady() {
+            window.location.reload();
+        }
+        window.applicationCache.addEventListener('updateready', onUpdateReady);
+        if(window.applicationCache.status === window.applicationCache.UPDATEREADY) {
+            onUpdateReady();
+        }
+    </script>
+    <link rel="stylesheet" media="all" href="/brandings/_cacheAssets/application.css">
+    <link rel="stylesheet" media="all" href="assets/branding/style.css">
+</head>
+<body>
+<div id="root">
+    <header></header>
+    <div id="content">
+        <!--Весь брендированный HTML должен располагаться здесь-->
+            <%= contents %>
+        <!--Прочее содержимое будет проигнорировано-->
+    </div>
+</div>
+<div id="footer"></div>
+<script>
+    window.settings = '{' +
+            '"#header":{"background":"#000"},' +
+            '"#join-internet":{"background":"#d5d5d5","color":"#273f9f"},' +
+            '"#premium":{"background":"#c41231"}' +
+            '}';
+</script>
+<script src="/brandings/_cacheAssets/application.js"></script>
+</body>
+</html>
