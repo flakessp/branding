@@ -1,7 +1,20 @@
-# Варианты
-## Yeoman
-??
+```sh
+git clone
+npm install
+npm install -g gulp
+gulp
+```
 
+```sh
+gulp dev
+gulp prod
+```
+# To do:
+
+1. Automate app.manifest creation
+2. Automate css to json
+
+# Варианты
 ## Bash automatization
 Using Bash for creating files and pulling git repository
 [Link to tutsplus course](https://code.tutsplus.com/courses/speedy-workflows-with-atom/lessons/command-line-workflow)
