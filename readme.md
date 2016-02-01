@@ -13,6 +13,8 @@ gulp prod
 
 1. Automate app.manifest creation
 2. Automate css to json
+3. Optimize images
+4. Minify
 
 # Варианты
 ## Bash automatization
