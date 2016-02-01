@@ -31,18 +31,36 @@ header {
 *{
   box-sizing: border-box;
 }
-
-//iphone4
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation: portrait) {
-  #content {
-  }
-}
 @media screen and (orientation: landscape) {
-  #content {
+  @media (min-width: 320px) {
+
+  }
+  @media (min-width: 480px) {
+
+  }
+  @media (min-width: 768px) {
+
+  }
+  @media  (min-width: 1024px) {
+
   }
 }
 @media screen and (orientation: portrait) {
-  #content{
+  @media (min-width: 320px) {
 
+  }
+  @media (min-width: 480px) {
+
+  }
+  @media (min-width: 768px) {
+
+  }
+  @media  (min-width: 1024px) {
+
+  }
+}
+//iphone4
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation: portrait) {
+  #content {
   }
 }
