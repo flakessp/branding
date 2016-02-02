@@ -16,6 +16,9 @@ gulp prod
 3. Optimize images
 4. Minify
 
+## Ideas
+1. Move gulp prod to diff folder without unused dev assets. Maybe just add another command for that.
+
 # Варианты
 ## Bash automatization
 Using Bash for creating files and pulling git repository
