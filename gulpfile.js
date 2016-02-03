@@ -22,8 +22,10 @@ gulp.task('serve', ['sass', 'dev'], function() {
     });
 
     gulp.watch(paths.sass, ['sass']);
-    gulp.watch(paths.html).on('change', browserSync.reload);
+    gulp.watch(paths.html, ['html-watch']);
 });
+
+gulp.task('html-watch', ['dev'], function(){browserSync.reload()});
 
 gulp.task('sass', function() {
     return gulp.src(paths.sass)
