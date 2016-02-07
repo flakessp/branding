@@ -1,14 +1,16 @@
-$header:              #000;
+$header_bg:              #fff;
+$header_color:        #000;
 $join-internet_color: #273f9f;
 $join-internet_bg:    #d5d5d5;
 $premium_color:       #fff;
 $premium_bg:          #c41231;
 
-header {
-  background: $header;
+header ul.top {
+  background-color: $header_bg;
+  color: $header_color
 }
 
-#footer a#disable-ad {
+#footer a#disableAd {
   background: $premium_bg;
   color: $premium_color;
 }
@@ -31,36 +33,36 @@ header {
 *{
   box-sizing: border-box;
 }
-@media screen and (orientation: landscape) {
-  @media (min-width: 320px) {
+#content{
+  @media screen and (orientation: landscape) {
+    @media (min-width: 480px)  and (min-height: 320px) {
 
-  }
-  @media (min-width: 480px) {
+    }
+    @media (min-width: 568px) {
 
-  }
-  @media (min-width: 768px) {
+    }
+    @media (min-width: 667px) {
 
-  }
-  @media  (min-width: 1024px) {
+    }
+    @media  (min-width: 736px) {
 
-  }
-}
-@media screen and (orientation: portrait) {
-  @media (min-width: 320px) {
+    }
+    @media  (min-width: 750px) {
 
-  }
-  @media (min-width: 480px) {
+    }
+    @media  (min-width: 1000px) {
 
+    }
   }
-  @media (min-width: 768px) {
+  @media screen and (orientation: portrait) {
+    @media (min-width: 320px) and (min-height: 380px) {
 
-  }
-  @media  (min-width: 1024px) {
+    }
+    @media (min-width: 375px) {
 
-  }
-}
-//iphone4
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 2/3) and (orientation: portrait) {
-  #content {
+    }
+    @media (min-width: 414px) {
+
+    }
   }
 }
