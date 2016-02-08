@@ -1,9 +1,10 @@
 ```sh
-git clone
+git clone https://github.com/flakessp/branding.git
 npm install
-npm install -g gulp
 gulp
 ```
+
+For everyday usage use branding.sh shell script
 
 ```sh
 gulp dev
@@ -11,7 +12,7 @@ gulp prod
 ```
 # To do:
 
-1. Automate app.manifest creation
+1. ~~Automate app.manifest creation~~
 2. Automate css to json
 3. Optimize images
 4. Minify
@@ -65,7 +66,6 @@ For further diving google "node file split/extract"
 ## Dev
 1. Compile and minify Sass assets
 2. Minify images
-3.
 
 ## Production
 1. Copy to Production
@@ -86,7 +86,7 @@ Learn how to create your own Gulp plugins
 Learn Node for file manipulation
 Learn layout html templating
 
-#Links
+# Links
 [Simple layouting with Gulp](http://twin.github.io/simple-layouting-with-gulp/)
 
 [How to Modularize HTML Using Template Engines and Gulp](http://www.zell-weekeat.com/nunjucks-with-gulp)
