@@ -46,11 +46,12 @@ gulp.task('dev', function () {
         .pipe(gulp.dest(paths.output));
 });
 
-gulp.task('prod', function () {
+gulp.task('prod', ['manifest','sass'], function () {
     return gulp.src(paths.layout)
         .pipe(wrap({src: paths.production}))
         .pipe(gulp.dest(paths.output));
 });
+
 gulp.task('manifest', function(){
   gulp.src(['assets/branding/*'], { base: './' })
     .pipe(manifest({

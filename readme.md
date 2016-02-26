@@ -16,6 +16,7 @@ gulp prod
 2. Automate css to json
 3. Optimize images
 4. Minify
+5. Optional normalize
 
 ## Ideas
 1. Move gulp prod to diff folder without unused dev assets. Maybe just add another command for that.
