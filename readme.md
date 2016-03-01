@@ -17,6 +17,7 @@ gulp prod
 3. Optimize images
 4. Minify
 5. Optional normalize
+6. Get screenshots from various screen sizes
 
 ## Ideas
 1. Move gulp prod to diff folder without unused dev assets. Maybe just add another command for that.
@@ -54,6 +55,15 @@ Automate Extractin code from HTML page
 [NPM Split](https://www.npmjs.com/package/splitfile)
 
 For further diving google "node file split/extract"
+
+## Automate iOs screenshot taking
+[http://arteksoftware.com/easily-launch-the-ios-simulator-from-the-command-line/](Nice CLI for via npm package)
+[https://krausefx.com/blog/creating-perfect-app-store-screenshots-of-your-ios-app](Taking screenshots using XCode)
+[https://medium.com/@MarcioK/opening-links-on-the-simulator-from-the-terminal-16d67b436e84#.ykyl119hy](Opening links in safari on simulator from Terminal)
+
+## Run custom scripts for tests
+* npm scripts
+* or learn how to run node scripts as gulp package
 
 ### Testing
 [QUnit](https://qunitjs.com/)
