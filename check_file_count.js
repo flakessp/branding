@@ -3,7 +3,7 @@ const glob = require("glob");
 //https://github.com/isaacs/node-glob
 
 glob("assets/branding/**",{"ignore":["node_modules/**"]}, (er, files) => {
-  let l = files.length-1;
+  let l = files.length-1;  //glob returns a folder itself (assets/branding) as first item in array, so we count it in total sum.
   if(l<10){
     console.log(`😋  ${files.length} ✅`);
   }
