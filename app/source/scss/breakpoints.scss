@@ -1,36 +1,37 @@
 @import './mixins';
+#content {
+  @media screen and (orientation: landscape) {
+    @include breakpoint(iphone4-h) {
 
-@media screen and (orientation: landscape) {
-  @include breakpoint(iphone4-h) {
+    }
+    @include breakpoint(iphone5-h) {
 
+    }
+    @include breakpoint(iphone6-h) {
+
+    }
+    @include breakpoint(iphone6_plus-h) {
+
+    }
+    @include breakpoint(tablet-h) {
+
+    }
   }
-  @include breakpoint(iphone5-h) {
+  @media screen and (orientation: portrait) {
+    @include breakpoint(iphone4) {
 
-  }
-  @include breakpoint(iphone6-h) {
+    }
+    @include breakpoint(iphone5) {
 
-  }
-  @include breakpoint(iphone6_plus-h) {
+    }
+    @include breakpoint(iphone6) {
 
-  }
-  @include breakpoint(tablet-h) {
+    }
+    @include breakpoint(iphone6_plus) {
 
-  }
-}
-@media screen and (orientation: portrait) {
-  @include breakpoint(iphone4) {
+    }
+    @include breakpoint(tablet) {
 
-  }
-  @include breakpoint(iphone5) {
-
-  }
-  @include breakpoint(iphone6) {
-
-  }
-  @include breakpoint(iphone6_plus) {
-
-  }
-  @include breakpoint(tablet) {
-
+    }
   }
 }
