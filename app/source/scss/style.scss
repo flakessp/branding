@@ -1,5 +1,6 @@
 @import './variables';
 @import './breakpoints';
+@import "./reset";
 
 header ul.top {
   background-color: $header_bg;
@@ -14,10 +15,6 @@ header ul.top {
 #footer a#join-internet {
   background: $join-internet_bg;
   color: $join-internet_color;
-}
-
-*{
-  box-sizing: border-box;
 }
 
 html,body{

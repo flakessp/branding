@@ -18,6 +18,7 @@ gulp prod
 4. Minify
 5. Optional normalize
 6. Get screenshots from various screen sizes
+7. Resolve bug for empty css files after sass compile
 
 ## Ideas
 1. Move gulp prod to diff folder without unused dev assets. Maybe just add another command for that.
