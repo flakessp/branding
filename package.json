@@ -12,7 +12,8 @@
     "gulp-sass": "^2.1.1",
     "gulp-util": "^3.0.7",
     "gulp-wrap": "^0.11.0",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "zombie": "^4.2.1"
   },
   "scripts": {
     "test": "mocha test/branding.js",
