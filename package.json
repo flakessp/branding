@@ -17,7 +17,7 @@
   },
   "scripts": {
     "test": "mocha test/branding.js",
-    "dev": "gulp gulp",
+    "dev": "gulp",
     "prod": "gulp prod"
   },
   "author": "Sergei Panfilov",
