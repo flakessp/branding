@@ -11,10 +11,12 @@
     "gulp-manifest": "^0.1.1",
     "gulp-sass": "^2.1.1",
     "gulp-util": "^3.0.7",
-    "gulp-wrap": "^0.11.0"
+    "gulp-wrap": "^0.11.0",
+    "mocha": "^2.4.5"
   },
   "scripts": {
-    "dev": "gulp dev",
+    "test": "mocha test/branding.js",
+    "dev": "gulp gulp",
     "prod": "gulp prod"
   },
   "author": "Sergei Panfilov",
