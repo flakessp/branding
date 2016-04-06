@@ -20,6 +20,8 @@ gulp prod
 6. Get screenshots from various screen sizes
 7. Resolve bug for empty css files after sass compile
 8. [Functional testing with node, zombie and mocha](http://www.redotheweb.com/2013/01/15/functional-testing-for-nodejs-using-mocha-and-zombie-js.html)
+9. Automate index.html #content innerHTML to app/source/html/index.html
+9. Automate style.css to app/source/scss/base.scss
 
 ## Ideas
 1. Move gulp prod to diff folder without unused dev assets. Maybe just add another command for that.

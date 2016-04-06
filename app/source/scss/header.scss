@@ -1,0 +1,19 @@
+header ul.top {
+  background-color: $header_bg;
+  color: $header_color
+}
+
+#footer a#disableAd {
+  background: $premium_bg;
+  color: $premium_color;
+}
+
+#footer a#join-internet {
+  background: $join-internet_bg;
+  color: $join-internet_color;
+}
+
+html,body{
+  background: #fff;
+  color: #000;
+}
