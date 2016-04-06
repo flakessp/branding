@@ -1,7 +1,7 @@
 {
   "name": "",
   "version": "1.0.1",
-  "description": "Package for automatization the proccess of devoloping branding creative",
+  "description": "Automate MaximaTelecom branding page testing & creation",
   "main": "gulfile.js",
   "dependencies": {},
   "devDependencies": {
@@ -14,7 +14,8 @@
     "gulp-wrap": "^0.11.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp dev",
+    "prod": "gulp prod"
   },
   "author": "Sergei Panfilov",
   "license": "ISC"
