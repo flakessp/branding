@@ -1,15 +1,10 @@
 ```sh
 git clone https://github.com/flakessp/branding.git
 npm install
-gulp
+npm run dev/prod
 ```
-
 For everyday usage use branding.sh shell script
 
-```sh
-gulp dev
-gulp prod
-```
 # To do:
 
 1. ~~Automate app.manifest creation~~
@@ -50,6 +45,9 @@ Using Bash for creating files and pulling git repository
 
 [Gulp Smashingmag Tut](https://www.smashingmagazine.com/2014/06/building-with-gulp/)
 
+[Сборка фронтэнда проекта](http://alexfedoseev.com/post/54/frontend-project-build)
+[Gulp Arkency](http://blog.arkency.com/2015/03/gulp-modern-approach-to-asset-pipeline-for-rails-developers/)
+
 Automate Injecting code in HTML page
 [Gulp Inject](https://www.npmjs.com/package/gulp-inject)
 
@@ -73,8 +71,8 @@ For further diving google "node file split/extract"
 [QUnit](https://qunitjs.com/)
 
 #### Css testing
-[CSS Testing Framework]https://github.com/jamesshore/quixote
-[Яндекс.Лекция - Тестирование верстки]https://vimeo.com/124015174
+[CSS Testing Framework](https://github.com/jamesshore/quixote)
+[Яндекс.Лекция - Тестирование верстки](https://vimeo.com/124015174)
 
 # Алгоритм
 
