@@ -65,42 +65,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 
-.flag-icon {
-  position: relative;
-  display: inline-block;
-  width: 1.33333em;
-  line-height: 1em;
-  background-size: contain;
-  background-position: 50%;
-  background-repeat: no-repeat;
-}
-
-.flag-icon:before {
-  content: " ";
-}
-
-.flag-icon-background {
-  background-size: contain;
-  background-position: 50%;
-  background-repeat: no-repeat;
-}
-
-
-
-.flag-icon-uk {
-  background-image: url(flag-icon/flags/4x3/uk.svg);
-}
-
-
-
-
-@font-face {
-  font-family: "Roboto";
-  src: url(fonts/roboto.woff) format("woff");
-  font-weight: normal;
-  font-style: normal;
-}
-
 html, body {
   height: 100%;
 }
@@ -154,77 +118,6 @@ header {
   z-index: 1;
 }
 
-#footer a#join-internet, #footer button {
-  text-decoration: none;
-  line-height: 50px;
-  font-size: 14px;
-  font-weight: bold;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  display: block;
-  background: #00C675;
-  color: #fff;
-  text-align: center;
-  border: none;
-  outline: none;
-}
-
-#footer #disableAd {
-  text-decoration: none;
-  display: block;
-  height: 50px;
-  background: #EC3E28;
-  font: 13px/1.2em "Roboto", sans-serif;
-  text-transform: uppercase;
-  line-height: 50px;
-  text-align: center;
-  color: #fff;
-}
-
-
-ul.top {
-  background: rgba(0, 0, 0, 0.8);
-  display: table;
-  width: 100%;
-  height: 50px;
-  overflow: hidden;
-  *zoom: 1;
-  position: relative;
-  font-size: 0;
-}
-
-ul.top:before {
-  content: "";
-  height: 100%;
-  vertical-align: middle;
-  display: inline-block;
-}
-
-ul.top li {
-  font: 10px/1.2em "Roboto", sans-serif;
-  width: 33%;
-  text-align: center;
-  box-sizing: border-box;
-  vertical-align: middle;
-  display: inline-block;
-  margin-left: 0.5%;
-  padding: 0 10px;
-}
-
-ul.top li:first-of-type {
-  margin-left: 0;
-}
-
-ul.top li#agreement {
-  font: 8px/1.2em "Roboto", sans-serif;
-}
-
-ul.top li#language-selector span {
-  padding-right: 10px;
-}
-
-
 #root {
   position: relative;
   overflow: hidden;
@@ -240,88 +133,6 @@ ul.top li#language-selector span {
   left: 0;
 }
 
-#content.nobranding {
-  background-image: url(bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  font-size: 0;
-  vertical-align: middle;
-}
-
-#content.nobranding:before {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  width: 0;
-  vertical-align: middle;
-}
-
-#content.nobranding h1 {
-  text-shadow: 1px 1px 1px black;
-  text-align: center;
-  color: #fff;
-  font: bold 20px/30px "Roboto", sans-serif;
-  display: inline-block;
-  vertical-align: middle;
-  box-sizing: border-box;
-  padding: 50px 50px 100px;
-}
-
-#content.nobranding h1 .nowrap {
-  white-space: nowrap;
-}
-
-#content > iframe {
-  display: none;
-}
-
-
-#banner-sample {
-  display: none;
-}
-
-
-#preloader {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  z-index: 1000000;
-  background: url(preloader.gif) no-repeat center, #000;
-}
-
-
-html.no-js #preloader {
-  display: none;
-}
-
-
-html.no-js #join-internet, html:not(.no-js) form button {
-  display: none !important;
-}
-
-
-html.premium #content {
-  background: #000;
-}
-
-html.premium #content h1 {
-  font: bold 16px/20px "Roboto", sans-serif;
-  padding: 50px 20px 100px;
-}
-
-html.premium header {
-  display: none;
-}
-
-html.premium #footer .bottom #vmetro-logo {
-  display: none;
-}
-
-html.premium #footer .bottom li.agreement {
-  padding: 0 100px 0 20px;
-  text-align: left;
-}
 *{
   box-sizing: border-box;
 };
