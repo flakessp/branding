@@ -13,7 +13,7 @@ var paths = {
     layout      : 'app/source/html/index.html',
     dev         : 'app/source/html/dev.html',
     production  : 'app/source/html/prod.html',
-    output      : ''
+    output      : './'
 };
 
 gulp.task('serve', ['sass', 'dev'], function() {
