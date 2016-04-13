@@ -17,3 +17,66 @@ html,body{
   background: #fff;
   color: #000;
 }
+
+#root {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -100px;
+}
+
+#root #root_footer {
+  height: 100px;
+}
+
+
+#footer {
+  clear: both;
+  position: relative;
+  height: 100px;
+}
+
+
+body {
+  font: 14px/1.2em "Roboto", sans-serif;
+  color: #fff;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-transition: color 0.2s;
+  transition: color 0.2s;
+}
+
+
+header {
+  position: relative;
+  z-index: 1;
+  height: 50px;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+
+
+#footer {
+  position: relative;
+  z-index: 1;
+}
+
+#root {
+  position: relative;
+  overflow: hidden;
+}
+
+
+#content {
+  color: #000;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
