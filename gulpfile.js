@@ -32,7 +32,7 @@ gulp.task('sass', function() {
     return gulp.src(paths.sass)
         .pipe(sass())
         .pipe(autoprefixer({
-            browsers: ['last 2 versions']
+          browsers: ['> 0%']
         }))
         .pipe(gulp.dest(paths.assets))
         .pipe(browserSync.stream());
